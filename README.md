@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ### Run
 
 ```bash
-python muzero.py
+python main.py
 ```
 To visualize the training results, run in a new terminal:
 ```bash

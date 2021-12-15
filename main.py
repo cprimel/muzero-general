@@ -593,7 +593,7 @@ def load_model_menu(muzero, game_name):
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
-        # Train directly with "python muzero.py cartpole"
+        # Train directly with "python main.py cartpole"
         muzero = MuZero(sys.argv[1])
         muzero.train()
     else:
